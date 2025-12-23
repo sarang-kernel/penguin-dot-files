@@ -1,0 +1,10 @@
+[Unit]
+Description=swww wallpaper daemon
+
+[Service]
+ExecStart=/usr/bin/swww-daemon
+Restart=always
+
+[Install]
+WantedBy=default.target
+

@@ -1,0 +1,10 @@
+[Unit]
+Description=Watch wallpaper directory for changes
+
+[Path]
+PathModified=/home/sarang/Pictures/wallpapers
+PathChanged=/home/sarang/Pictures/wallpapers
+DirectoryNotEmpty=/home/sarang/Pictures/wallpapers
+
+[Install]
+WantedBy=default.target

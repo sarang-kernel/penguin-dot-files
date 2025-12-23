@@ -1,0 +1,6 @@
+[Unit]
+Description=Sort wallpapers into day/night folders
+
+[Service]
+Type=oneshot
+ExecStart=/home/sarang/scripts/sort-wallpapers.sh
